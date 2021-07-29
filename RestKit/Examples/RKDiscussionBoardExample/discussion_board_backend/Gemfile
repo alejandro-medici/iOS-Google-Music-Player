@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '5.2.4.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -30,6 +30,6 @@ gem 'ruby-debug'
 #   gem 'webrat'
 # end
 
-gem 'authlogic', '2.1.6', :require => 'authlogic'
+gem 'authlogic', '3.3.0', :require => 'authlogic'
 gem 'aws-s3'
-gem 'paperclip'
+gem 'paperclip', '>= 4.2.2'
